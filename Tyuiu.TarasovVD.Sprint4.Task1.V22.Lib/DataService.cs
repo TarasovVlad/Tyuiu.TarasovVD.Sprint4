@@ -5,22 +5,23 @@ using System.Text;
 using System.Threading.Tasks;
 using tyuiu.cources.programming.interfaces.Sprint4;
 
-namespace Tyuiu.TarasovVD.Sprint4.Task0.V21.Lib
+namespace Tyuiu.TarasovVD.Sprint4.Task1.V22.Lib
 {
-    public class DataService : ISprint4Task0V21
+    public class DataService : ISprint4Task1V22
     {
-        public int GetSumEvenArrEl(int[] array)
+        public int Calculate(int[] array)
         {
-            int sum = 0;
+            int product = 1;
 
             foreach (int element in array)
             {
-                if (element % 2 == 0)
+                if (element % 2 != 0)
                 {
-                    sum += element;
+                    product *= element;
                 }
             }
 
-            return sum;
+            return product;
         }
-}   }
+    }
+}
