@@ -11,6 +11,16 @@ namespace Tyuiu.TarasovVD.Sprint4.Task7.V1
     {
         static void Main(string[] args)
         {
+            Console.Title = "Спринт #4 | Выполнил: Тарасов В. Д. | ПКТб-23-2 ";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #4                                                               *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Выполнил: Тарасов Владислав Денисович | ПКТб-23-2                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу на C# по заданным условиям                           *");
             DataService ds = new DataService();
 
             int rows = 3;

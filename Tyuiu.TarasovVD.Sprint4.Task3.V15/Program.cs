@@ -11,6 +11,16 @@ namespace Tyuiu.TarasovVD.Sprint4.Task3.V15
     {
         static void Main(string[] args)
         {
+            Console.Title = "Спринт #4 | Выполнил: Тарасов В. Д. | ПКТб-23-2 ";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #4                                                               *");
+            Console.WriteLine("* Тема: Двумерные массивы. (статический ввод)                             *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Выполнил: Тарасов Владислав Денисович | ПКТб-23-2                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу на C# по заданным условиям.                          *");
             int[,] mas2 = new int[5, 5]{    {7, 4, 2, 5, 3},
                                             {4, 3, 2, 5, 6},
                                             {6, 3, 4, 7, 5},

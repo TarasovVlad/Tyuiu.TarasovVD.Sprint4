@@ -13,7 +13,16 @@ namespace Tyuiu.TarasovVD.Sprint4.Task5.V23
         {
             DataService ds = new DataService();
             Random rnd = new Random();
-
+            Console.Title = "Спринт #4 | Выполнил: Тарасов В. Д. | ПКТб-23-2 ";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #4                                                               *");
+            Console.WriteLine("* Тема: Двумерные массивы. (генератор случайных чисел)                    *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #23                                                             *");
+            Console.WriteLine("* Выполнил: Тарасов Владислав Денисович | ПКТб-23-2                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу на C# по заданным условиям.                          *");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");

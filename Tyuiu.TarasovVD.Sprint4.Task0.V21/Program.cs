@@ -11,6 +11,16 @@ namespace Tyuiu.TarasovVD.Sprint4.Task0.V21
     {
         static void Main(string[] args)
         {
+            Console.Title = "Спринт #4 | Выполнил: Тарасов В. Д. | ПКТб-23-2 ";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #4                                                               *");
+            Console.WriteLine("* Тема: Одномерные массивы (статический ввод)                             *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #21                                                             *");
+            Console.WriteLine("* Выполнил: Тарасов Владислав Денисович | ПКТб-23-2                       *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу на C# по заданным условиям.                          *");
             DataService ds = new DataService();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
